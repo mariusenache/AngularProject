@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="form">
+    <input nz-input placeholder="Name" [(ngModel)]="personName" />
+    <input nz-input placeholder="Description" [(ngModel)]="personDescription" />
+    <button nz-button nzType="primary" (click)="editPerson()">Save</button>
+    <button class="delete-btn" nz-button nzType="primary" nzDanger (click)="deletePerson()">Delete</button>
+  </div>
+</div>
+
+
+  

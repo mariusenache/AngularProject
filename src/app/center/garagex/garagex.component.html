@@ -1,0 +1,18 @@
+<div class="container">
+
+  <div class="nav">
+    <a routerLink=".." routerLinkActive="active" >
+      <button nz-button nzType="primary" nzBlock>EXIT GARAGE</button>
+  </a>
+  </div>
+    
+  <div class="ships">
+    <app-shipx
+    *ngFor="let shipx of shipList"
+        [shipx]="shipx">
+    </app-shipx>
+  </div>    
+  
+</div>
+
+    

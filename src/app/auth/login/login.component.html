@@ -1,0 +1,31 @@
+<div class="container">
+    
+    <form nz-form [formGroup]="loginForm" class="login-form" (ngSubmit)="login()">
+        <h3>LOGIN</h3>
+        <nz-form-item>
+          <nz-form-control nzErrorTip="Email incorrect">
+            <nz-input-group nzPrefixIcon="mail">
+              <input type="text" nz-input formControlName="email" placeholder="e-mail" />
+            </nz-input-group>
+          </nz-form-control>
+        </nz-form-item>
+        <nz-form-item>
+          <nz-form-control nzErrorTip="Password minimum length is 6">
+            <nz-input-group nzPrefixIcon="lock">
+              <input type="password" nz-input formControlName="password" placeholder="Password" />
+            </nz-input-group>
+          </nz-form-control>
+        </nz-form-item>
+        <div nz-row class="login-form-margin">
+          <div nz-col [nzSpan]="50">
+            <label nz-checkbox formControlName="remember">
+              <span>Remember me</span>
+            </label>
+          </div>
+        </div>
+        <button nz-button class="login-form-button login-form-margin" [nzType]="'primary'">Log in</button>
+        Or
+        <a routerLink="reg"><b>Register now!</b></a>
+        <p *ngIf="showError" nz-typography nzType="danger">FAIL!</p>
+      </form>
+</div>

@@ -1,0 +1,26 @@
+.form {
+    display: flex;
+    padding: 50px;
+    margin-bottom: 20px;
+
+
+  
+    input {
+      width: 300px;
+      margin-right: 20px;
+    }
+  }
+  
+  .delete-btn {
+    margin-left: 20px;
+  }
+  
+
+  .container {
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}

@@ -1,0 +1,21 @@
+<div class="container">
+<div class="nav">
+  <a routerLink="garagex" routerLinkActive="active" >
+    <button nz-button nzType="primary" nzBlock>Go to Garage</button>
+</a>
+
+<a routerLink="person-add" routerLinkActive="active" >
+    <button nz-button nzType="primary" nzBlock>Hire new team member</button>
+</a>
+</div>
+
+  <div class="persons">
+      <app-person
+        *ngFor="let person of personList"
+        [person]="person"
+        (clickedEdit)="navigateToPersonPage(person)"
+      ></app-person>
+    </div>
+
+</div>
+

@@ -1,0 +1,19 @@
+<div class="container">
+  <nz-card style="width:300px;" [nzActions]="[ actionEdit]">
+    <nz-card-meta style="height: 70px;" 
+      [nzTitle]="person.title"
+      [nzDescription]="person.description"
+      [nzAvatar]="avatarTemplate"
+    ></nz-card-meta>
+  </nz-card>
+  <ng-template #avatarTemplate>
+    <nz-avatar  [nzSize]="77" [nzShape]="'square'" [nzSrc]="person.avatar" clas="avatar"></nz-avatar>
+  </ng-template>
+  
+  <ng-template #actionEdit >
+    <span nz-icon nzType="edit" (click)="navigateToPersonPage()"> Manage this person </span>
+  </ng-template>
+</div>
+
+
+  

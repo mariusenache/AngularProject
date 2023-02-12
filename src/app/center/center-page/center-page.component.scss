@@ -1,0 +1,40 @@
+button{
+    display: block;
+}
+.nav{
+    //display: block;
+    width: 300px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.persons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .form {
+    display: flex;
+    margin-bottom: 20px;
+  
+    input {
+      width: 300px;
+      margin-right: 20px;
+    }
+  }
+  
+  .container {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5794cfd6-30a7-4fc2-a969-02b7c9f6e66e/d9u7wc4-bddf1d2e-f29d-4acd-9cc3-922300a7a4a0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU3OTRjZmQ2LTMwYTctNGZjMi1hOTY5LTAyYjdjOWY2ZTY2ZVwvZDl1N3djNC1iZGRmMWQyZS1mMjlkLTRhY2QtOWNjMy05MjIzMDBhN2E0YTAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.d5splLnS_FyB8WZLn-1Kfp7vPId3F8SVnHgfeBQm20o");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 900px;
+    padding: 50px;
+  }
+  [nz-button] {
+    margin-right: 8px;
+    margin-bottom: 12px;
+    
+  }
