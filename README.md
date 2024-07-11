@@ -1,5 +1,4 @@
-**User management system for a team of space-colonists** 
-**Node.js Web Application with Angular**
+**User management system for a team of space-colonists - Node.js Web Application with Angular**
 
 I have learned the basics of front end development. I used javascript, the Angular framework. 
 I have also learned how to use libraries in a project (I implemented components from NgZorro in this project).
