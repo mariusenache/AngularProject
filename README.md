@@ -9,7 +9,7 @@ In this project I aimed to create a space-colonists team management system. User
 It is my first project that offered me an introduction into the world of web development.
 
 -----------------------------------------
-For the project to run, (using VS Code):
+For the project to run (Node.js needs to be installed):
 1. Inside root folder of project, run the command "npm install", to install node packages for the project
 2. Then run "json-server --watch db.json" to connect to the 'fake backend server' (the .json file) 
 3. For login or register, use address "eve.holt@reqres.in"; any password will work
