@@ -5,7 +5,7 @@ I have also learned how to use libraries in a project (I implemented components 
 I used a "fake backend" that is a json file with the data I used for the webpage.
 I implemented login and registration fatures using Reqres to simulate server interactions.
 
-In this project I aimed to replicate the initial page of a spaceship game. On this page, users can create their own team and choose ships from the garage for an immersive space gaming experience.
+In this project I aimed to create a space-colonists team management system. Users can create their own team and choose diverse ships from the garage.
 It is my first project that offered me an introduction into the world of web development.
 
 -----------------------------------------
