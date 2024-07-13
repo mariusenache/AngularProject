@@ -12,8 +12,9 @@ It is my first project that offered me an introduction into the world of web dev
 For the project to run (Node.js needs to be installed):
 1. Inside root folder of project, run the command "npm install", to install node packages for the project
 2. Install json-serrver globally by running "npm install -g json-server"
-3. Then run "json-server --watch db.json" to connect to the 'fake backend server' (the .json file) 
-4. For login or register, use address "eve.holt@reqres.in"; any password will work
+3. Then run "json-server --watch db.json" to connect to the 'fake backend server' (the .json file)
+4. Start the project by running the command "npm start"
+5. For login or register, use address "eve.holt@reqres.in"; any password will work
 
 
 For authentication, I utilized https://reqres.in/ for testing HTTP requests and responses during the development of the login and registration functionalities.
