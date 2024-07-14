@@ -9,7 +9,7 @@ In this project I aimed to create a space-colonists team management system. User
 It is my first project that offered me an introduction into the world of web development.
 
 -----------------------------------------
-For the project to run (Node.js needs to be installed):
+**For the project to run (Node.js needs to be installed):**
 1. Inside root folder of project, run the command "npm install", to install node packages for the project
 2. Install json-serrver globally by running "npm install -g json-server"
 3. Then run "json-server --watch db.json" to connect to the 'fake backend server' (the .json file)
@@ -18,3 +18,6 @@ For the project to run (Node.js needs to be installed):
 
 
 For authentication, I utilized https://reqres.in/ for testing HTTP requests and responses during the development of the login and registration functionalities.
+
+**Short video description:**
+https://www.youtube.com/watch?v=ZzhEemqjNpk
